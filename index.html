@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="calculator">
+    <header class="calculator__header">
+      <h1 class="calculator__title">Calculadora</h1>
+    </header>
+
+    <section class="calculator__display">
+      <input type="text" class="calculator__display-input" id="display" readonly>
+    </section>
+
+    <section class="calculator__buttons">
+      <button class="button button--number" data-value="7">7</button>
+      <button class="button button--number" data-value="8">8</button>
+      <button class="button button--number" data-value="9">9</button>
+      <button class="button button--operator" data-value="/" id="divide">/</button>
+
+      <button class="button button--number" data-value="4">4</button>
+      <button class="button button--number" data-value="5">5</button>
+      <button class="button button--number" data-value="6">6</button>
+      <button class="button button--operator" data-value="*" id="multiply">*</button>
+
+      <button class="button button--number" data-value="1">1</button>
+      <button class="button button--number" data-value="2">2</button>
+      <button class="button button--number" data-value="3">3</button>
+      <button class="button button--operator" data-value="-" id="subtract">-</button>
+
+      <button class="button button--number" data-value="0">0</button>
+      <button class="button button--clear" id="clear">C</button>
+      <button class="button button--equal" id="equal">=</button>
+      <button class="button button--operator" data-value="+" id="add">+</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
